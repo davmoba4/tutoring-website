@@ -1,0 +1,190 @@
+/* Top header across all pages */
+/*
+.topHeader {
+    overflow: hidden;
+    background-color: #000000;
+    width: 900px;
+}
+
+.topHeader a {
+    float: right;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}*/
+/* -------------------------- */
+
+/* General over all pages */
+h1 {
+    color: #f5f5dc;
+}
+
+h2 {
+    color: #94c0cc;
+}
+
+p { color: #c4adc9;
+}
+/* -------------------------- */
+
+/* Profile & Profile Edit Pages */
+table tr td {
+    width: 260px;
+    padding: 5px 0px;
+	margin-right: 5px;
+    color: #f5f5dc;
+}
+
+.checkbox{
+	margin-right:5px;
+}
+.checkboxText {
+    color: #f5f5dc;
+}
+
+.rightPortion {
+	margin-left: 5px;
+    float: right;
+    width: 465px;
+}
+
+.leftPortion {
+    float: left;
+    width: 465px;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+}
+
+textarea {
+    resize:none;
+}
+/* -------------------------- */
+
+
+/* Landing Page - different section formats */
+.division {
+    /*width: 335px;*/
+    min-height: 582px;
+    /*padding-left: 10px;
+    padding-right: 10px;
+    float: left;*/
+    color: lightcyan;
+    border-style: solid;
+    border-color: lightpink;
+    /*margin: 10px;*/
+    margin-left: 0px;
+}
+
+.sessionHeading {
+    text-align: center;
+    min-height: 75px;
+}
+
+div a {
+    text-decoration: none;
+    color: beige;
+}
+
+.title {
+  float: left;
+  width: 190px;
+  word-break: break-all;
+}
+.title2 {
+  float: left;
+  width: 190px;
+}
+
+.date {
+  /*float: right;*/
+  white-space: nowrap;
+}
+
+.sessionClass {
+  /*margin-bottom: 10px;*/
+  min-height: 50px;
+  border-color: #f6f4f1;
+  border-style: solid;
+  border-width: 1px;
+  /*padding: 3px;*/
+}
+
+/* -------------------------- */
+
+/* Whiteboard page - including board, toolbar, and message section*/
+.board {
+    width : 600px;
+    height : 555px;
+    float: left;
+    background-color: white;
+}
+
+.chatWindow {
+    width : 280px;
+    height : 555px;
+    float: left;
+    background-color: beige;
+}
+
+.toolbar {
+    background-color: lightblue;
+    width: 600px;
+    height: 40px;
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+	overflow:hidden;
+    text-align: center;*/
+}
+
+.toolbarItems {
+	float: left;
+    font-size: 14px;
+    margin-top: 8px;
+	margin-right: 15px;
+	border: 0.009px solid #4c7a70;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	width: 25px;
+	height: 25px;
+}
+.toolbarItems:hover {
+	filter: brightness(1.5);
+}
+.toolbarItems i{
+	padding-top:5px;
+	cursor: pointer;
+}
+
+.drawSection {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 5px;
+    /*width: 640;
+    height: 450;
+    /*height:475px;*/
+}
+
+.display {
+    margin: 5px;
+    height: 375px;
+    width: 220px;
+}
+
+.enter {
+    margin: 5px;
+    height: 80px;
+    width: 270px;
+}
+
+/* -------------------------- */
